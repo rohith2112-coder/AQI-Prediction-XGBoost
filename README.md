@@ -32,3 +32,9 @@ The model demonstrates strong predictive power. For a city like **Delhi**, the m
 3. Install the required libraries:
    ```bash
    pip install pandas xgboost scikit-learn matplotlib numpy
+
+## 📊 Model Output
+![Sample Output](outputsample.png)
+
+## 📈 Prediction Results
+![Actual vs Predicted](AQI_prediction.png)
