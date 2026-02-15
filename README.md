@@ -38,3 +38,10 @@ The model demonstrates strong predictive power. For a city like **Delhi**, the m
 
 ## 📈 Prediction Results
 ![Actual vs Predicted](AQI_prediction.png)
+### 2. Feature Importance (What drives the prediction?)
+This chart shows that **Yesterday's AQI** and **Last Week's AQI** are the strongest predictors, proving that air quality has strong temporal patterns.
+![Feature Importance](Most_Important_Factor.png)
+
+### 3. Error Analysis (Residual Plot)
+The residual plot shows how our predictions vary from actual values. A random distribution around the horizontal line indicates a well-fitted model.
+![Residual Plot](Residual_Plot.png)
